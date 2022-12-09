@@ -4,7 +4,7 @@
 
 We are building a tier 1 service to clense, ingest, store and query data representing people's employment history and company data. The data lives locally in a relational database (PostgresSQL)The ingestion and querying is carrier out via an ORM (SQL Alchemy). This provides The data is lighly clensed to make relational mapping more accurate between the tables and columns (Logic can be found in load script). The backend app is built using Flask with intentions to make it easily extensible to a front end framework in the future. 
 
-Understanding key points about the data: 
+## Understanding key points about the data: 
 
 - All the companies people worked for are not in the companies table 
 - There are some companies that have no people data stored 
@@ -12,7 +12,7 @@ Understanding key points about the data:
 - The company name people provide might not match the name in company data. There are companies that match the people data based on company name and company linkedin. 
 - There is a one to many mapping between company linkedin names and companies names in the companies table.
 
-Assumptions we will make: 
+## Assumptions we will make: 
 - If people did not provide an end date, we assume they work there.
 - If the title people provide includes the substring founder, they are a founder at the company 
 - Companies can be referenced accurately by people using company name or company linkedin
