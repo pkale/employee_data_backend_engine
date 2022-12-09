@@ -16,3 +16,11 @@ We are building a tier 1 service to clense, ingest, store and query data represe
 - If people did not provide an end date, we assume they work there.
 - If the title people provide includes the substring founder, they are a founder at the company 
 - Companies can be referenced accurately by people using company name or company linkedin
+
+
+## Set Up Guide 
+
+1. Dowload project and set up on your local machine. 
+2. Set up virtual enviorment with python 3.8 and above 
+3. cd into the main project folder and run the following command to install all dependencies.
+    ```pip install -r requirments.txt```
