@@ -21,12 +21,12 @@ We are building a tier 1 service to clense, ingest, store and query data represe
 ## Set Up Guide 
 
 1. Dowload project and set up on your local machine. 
-2. Set up virtual enviorment with python 3.8 and above 
+2. Set up a virtual enviorment for the proejct with python 3.8 and above. (Lower versions might lead to package dependencies issues for Flask_SQLAlchemy.)
 3. cd into the main project folder and run the following command to install all dependencies.
     ```
     pip install -r requirments.txt
     ```
-4. Once all the required packages are installed, launch the app by running the command below
+4. Once all the required packages are installed, launch the app by running the command below.
     ```
     flask run
     ```
