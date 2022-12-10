@@ -30,7 +30,7 @@ We are building a tier 1 service to clense, ingest, store and query data represe
     ```
     flask run
     ```
-    When the app is run, the data is automatically loaded onto the database. The data can be accessed at the following URL: 
+    When the app is run, the data is automatically loaded onto the database. This allows the set up process to be quick and efficient. In the future, there could be a need to split these executions into two components for better maintainability of the engine. The data can be accessed at the following URL: 
     ```
     postgresql://admin:admin@localhost:5432/poojakale
     ```
