@@ -13,7 +13,7 @@ We are building a tier 1 service to clense, ingest, store and query data represe
 - There is a one to many mapping between company linkedin names and companies names in the companies table.
 
 ## Assumptions we will make: 
-- If people did not provide an end date, we assume they work there.
+- If people did not provide an end date, we assume they currently work there.
 - If the title people provide includes the substring founder, they are a founder at the company 
 - Companies can be referenced accurately by people using company name or company linkedin
 
