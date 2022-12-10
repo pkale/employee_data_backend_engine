@@ -30,7 +30,10 @@ We are building a tier 1 service to clense, ingest, store and query data represe
     ```
     flask run
     ```
-
+    When the app is run, the data is automatically loaded onto the database. The data can be accessed at the following URL: 
+    `
+    postgresql://admin:admin@localhost:5432/poojakale
+    `
 5. There are 3 APIs defined as follows: 
     ```
     /average-funding-by-person/[person_id]
@@ -38,7 +41,3 @@ We are building a tier 1 service to clense, ingest, store and query data represe
     /investors-by-company/[company_li_name]
     ```
 
-6. When the app is run, the data is automatically loaded onto the database. The data can be accessed at the following URL: 
-    `
-    postgresql://admin:admin@localhost:5432/poojakale
-    `
