@@ -26,3 +26,14 @@ We are building a tier 1 service to clense, ingest, store and query data represe
     ```
     pip install -r requirments.txt
     ```
+4. Once all the required packages are installed, launch the app by running the command below
+    ```
+    flask run
+    ```
+
+5. There are 3 APIs defined as follows: 
+    `/average-funding-by-person`
+    `/companies-by-person`
+    `/investors-by-company`
+
+6. The data can 
